@@ -69,9 +69,19 @@ header {
 	border-bottom: 5px solid #FFCC00;
 }
 
+header h1 {
+	float: left;
+}
+
+header nav {
+	float: right;
+	padding-top: 70px;
+	padding-right: 40px;
+}
+
 header nav ul li {
 	float: left;
-	margin-right: 20px;
+	margin-left: 40px;
 }
 
 header nav ul li a {
@@ -96,9 +106,15 @@ div#mainimage {
 	height: auto;
 }
 
+div#mainimage div {
+	width: 960px;
+	height: 400px;
+	margin: 0 auto;
+}
+
 div#mainimage img {
 	width: 960px;
-	height: auto;
+	height: 400px;
 }
 
 /* ========================================
