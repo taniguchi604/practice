@@ -282,9 +282,19 @@ div#left dl dd:last-child {
 	margin-bottom: 0;
 }
 
+/* ========================================
+    コンタクトページ
+========================================= */
 
-
-
+p#contact_text {
+	color: #927e7a;
+	font-size: 12px;
+	line-height: 18px;
+	background-color: #ffefea;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 
 
 
