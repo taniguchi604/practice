@@ -296,6 +296,23 @@ p#contact_text {
 	margin-bottom: 10px;
 }
 
+td.form_title {
+	width: 131px;
+	height: 32px;
+	font-size: 15px;
+	color: #734339;
+	vertical-align: top;
+	
+}
+
+td.form_title label {
+	font-weight: bold;
+}
+
+
+
+
+
 
 
 
