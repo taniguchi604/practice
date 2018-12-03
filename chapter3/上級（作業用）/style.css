@@ -59,6 +59,17 @@ div#test {
 
 body {
 	font-family: "メイリオ", Meiryo;
+    color: #434343;
+    background-color: #f6f6f6;
+}
+
+a {
+    color: #434343;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f6ac4d;
 }
 
 /* ========================================
@@ -78,6 +89,98 @@ div#header_inner {
 	width: 960px;
 	height: 52px;
 	margin: 0 auto;
+}
+
+h1 {
+    float: left;
+}
+
+nav {
+    font-size: 18px;
+    float: right;
+    margin-top: 30px;
+}
+
+nav ul li {
+    float: left;
+    border-left: 1px dotted #434343;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+nav ul li:last-child {
+    border-right: 1px dotted #434343;
+    padding-right: 20px;
+}
+
+/* ========================================
+    ピックアップ用
+========================================= */
+
+div#main_wrapper {
+    width: 960px;
+    height: auto;
+    margin: 30px auto 0 auto;
+}
+
+div#top_pickup {
+    width: 580px;
+    height: 358px;
+    background-color: #fff;
+    float: left;
+    margin-right: 30px;
+    border: 1px solid #dcdddf;
+}
+
+p#pickup_thumb {
+    width: 580px;
+    height: 256px;
+    position: relative;
+    border-bottom: 1px solid #dcdddf;
+}
+
+span#pickup_tag {
+    background-color: rgba(246,172,77,0.9);
+    padding: 0 10px;
+    font-size: 14px;
+    color: #fff;
+    width: auto;
+    height: 32px;
+    line-height: 32px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+div#top_pickup dl {
+    padding: 15px 20px;
+}
+
+div#top_pickup dl dt {
+    line-height: 27px;
+}
+
+div#top_pickup dl dt a {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+div#top_pickup dl dd {
+    font-size: 12px;
+    font-weight: bold;
+    color: #dcdddf;
+}
+
+
+/* ========================================
+    ランキング用
+========================================= */
+
+div#top_ranking {
+    width: 348px;
+    height: 360px;
+    background-color: green;
+    float: left;
 }
 
 
