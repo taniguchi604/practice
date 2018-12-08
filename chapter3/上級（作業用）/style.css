@@ -317,7 +317,7 @@ div#top_right h3 {
     padding-left: 30px;
 }
 
-div#top_right ul li {
+div#top_right ul#post_list li {
     width: 650px;
     height: 152px;
     background-color: #fff;
@@ -325,7 +325,7 @@ div#top_right ul li {
     margin-bottom: 30px;
 }
 
-div#top_right ul li dl dt {
+div#top_right ul#post_list li dl dt {
     width: 247px;
     height: 152px;
     float: left;
@@ -333,7 +333,7 @@ div#top_right ul li dl dt {
     position: relative;
 }
 
-div#top_right ul li dl dt span.new_category_tag {
+div#top_right ul#post_list li dl dt span.new_category_tag {
     font-size: 14px;
     font-weight: bold;
     padding: 0 10px;
@@ -349,7 +349,7 @@ div#top_right ul li dl dt span.new_category_tag {
 
 }
 
-div#top_right ul li dl dd {
+div#top_right ul#post_list li dl dd {
     padding: 20px 20px 0 0 ;
 }
 
@@ -384,9 +384,28 @@ div#top_right p a {
     text-decoration: underline;
 }
 
+div#pagination {
+    width: auto;
+    height: 34px;
+    float: right;
+}
 
+div#pagination ul li {
+    width: auto;
+    height: 32px;
+    background-color: #fff;
+    border: 1px solid #dcdddf;
+    float: left;
+    margin-left: 10px;
+}
 
-
+div#pagination ul li a {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 32px;
+    padding: 0 8px;
+    display: block;
+}
 
 
 
