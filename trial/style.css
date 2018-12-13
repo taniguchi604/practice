@@ -50,13 +50,6 @@ a:focus {outline:none;}
     レイアウト用
 ========================================= */
 
-body {
-	font-family: sans-serif;
-}
-
-div#clear {
-	clear: both;
-}
 
 /* ========================================
     ヘッダー
@@ -64,94 +57,43 @@ div#clear {
 
 header {
 	width: 100%;
-	height: 100px;
-	background-color: white;
-	border-bottom: 5px solid #FFCC00;
+	height: 200px;
 }
 
 header h1 {
-	width: 400px;
-	height: 100px;
-	line-height: 100px;
+	width: 300px;
+	height: 200px;
 	float: left;
-	padding-left: 50px;
 }
 
 header nav {
 	width: auto;
-	height: 50px;
-	float: left;
-	margin-top: 50px;
-	line-height: 50px;
-}
-
-header nav ul li {
-	float: left;
-	margin-left: 60px;
-}
-
-header nav ul li a {
-	font-size: 16px;
-	font-weight: bold;
-	color: #FFCC00;
-	text-decoration: none;
-
-}
-
-header nav ul li a:hover {
-	color: #444444;
-	border-bottom: 4px solid #444444;
+	height: auto;
+	float: right;
 }
 
 /* ========================================
     #wrapper
 ========================================= */
 
-div#wrapper {
-	width: 960px;
-	height: auto;
-	margin: 0 auto;
-}
 
 /* ========================================
     main image
 ========================================= */
 
-div#mainimage img {
-	width: 960px;
-	height: auto;
-	display: block;
-}
 
 /* ========================================
     description
 ========================================= */
 
-div#description {
-	width: 960px;
-	height: 100px;
-	background-color: red;
-}
 
 /* ========================================
     applications
 ========================================= */
 
-div#applications {
-	width: 960px;
-	height: 100px;
-	background-color: green;
-}
-
 /* ========================================
     フッター
 ========================================= */
-
-footer {
-	width: 100%;
-	height: 100px;
-	background-color: black;
-}
 
 
 
