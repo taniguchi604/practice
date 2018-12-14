@@ -29,7 +29,7 @@
 		 	<div class="collapse navbar-collapse" id="navbarNav">
 		    	<ul class="navbar-nav">
 		      		<li class="nav-item active">
-		        		<a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+		      			<a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>		        		
 		      		</li>
 		      		<li class="nav-item">
 		        		<a class="nav-link" href="#">借りたい</a>
@@ -50,11 +50,19 @@
 		  	</div>
 		</nav>
 
+		
+
 	</header>
 	<!-- ヘッダーここまで -->
 
 	<!-- ラッパーここから -->
 	<div id="wrapper">
+
+		<div class="container">
+		  <h2><span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span>おすすめポイント</h2>
+		  <h2><span class="glyphicon glyphicon-check" aria-hidden="true"></span>確認項目</h2>
+		  <h2><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>お問い合わせはこちら</h2>  
+		</div>
 
 		<!-- メイン画像ここから -->
 		<div id="mainimage"></div>
