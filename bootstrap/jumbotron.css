@@ -1,0 +1,21 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+}
+
+div#navbarTogglerDemo01 ul {
+  margin: 0 auto;
+}
+
+div#navbarTogglerDemo01 ul li {
+  width: 150px;
+  text-align: center;
+}
+
+.jumbotron {
+  background: url(images/sea.jpg) no-repeat;
+  background-size: cover;
+}
+
